@@ -21,8 +21,22 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
+    headers:
+      Host: ais.speedtest.net
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 188.114.97.6
+  server: tg.zhujue.us
+  port: 11000
+  udp: true
+  type: vless
+  uuid: 0e46345c-f33b-4f9b-b8ec-90e7c986af7e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
+  servername: s0.awsstatic.com
+  client-fingerprint: chrome
+- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
+  server: 104.16.10.2
   port: 443
   udp: true
   type: vless
@@ -35,6 +49,21 @@ proxies:
     path: /ws
     headers:
       Host: v2ray.simspeedup.com
+- name: 🇹🇭 泰国 (Thailand) 05 - xiaohe
+  server: 43.175.131.30
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /category/lives?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -43,6 +72,8 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 01 - xiaohe
   - 🇹🇭 泰国 (Thailand) 02 - xiaohe
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -51,5 +82,7 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 01 - xiaohe
   - 🇹🇭 泰国 (Thailand) 02 - xiaohe
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 05 - xiaohe
 rules:
 - MATCH,PROXIES

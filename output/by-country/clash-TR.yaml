@@ -24,31 +24,19 @@ proxies:
     public-key: PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI
     short-id: 5606d4a25c99e7af
   servername: sync-bridge.org
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: max.karmatel.ir
-  port: 55519
+  server: helixgaming.ir
+  port: 80
   udp: true
   type: vless
-  uuid: a2b9a1b7-f12f-4503-a9f6-c78ec565a6bf
+  uuid: c0e453eb-33ac-4206-8423-3e1286c2ba7a
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: play-apps-features.googleusercontent.com
+      Host: play.google.com
 - name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: antar.cdkshop.ir
-  port: 8086
-  udp: true
-  type: vless
-  uuid: 01271baa-c5e3-4e2d-b43e-2c963c5bc21f
-  tls: true
-  reality-opts:
-    public-key: nnq5J3zXFDHUGvCza7e5CMa34oexEcXUqAfqz_YY7yo
-    short-id: 5b58b0
-  servername: pro.radeon.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -60,7 +48,54 @@ proxies:
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  server: content3.movieham.ir
+  port: 5494
+  udp: true
+  type: vless
+  uuid: 7e0faccc-1d74-4ddf-bbdf-7258e155115d
+  tls: true
+  reality-opts:
+    public-key: SzDv43wbpLLk6ADfHa8P6lsHTEa1d3zf6BSzVtdsHSc
+    short-id: dfa0ae38b2eba4c8
+  servername: play.google.com
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  server: antar.cdkshop.ir
+  port: 8086
+  udp: true
+  type: vless
+  uuid: 01271baa-c5e3-4e2d-b43e-2c963c5bc21f
+  tls: true
+  reality-opts:
+    public-key: nnq5J3zXFDHUGvCza7e5CMa34oexEcXUqAfqz_YY7yo
+    short-id: 5b58b0
+  servername: pro.radeon.com
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  server: 139.28.240.68
+  port: 2086
+  udp: true
+  type: vmess
+  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+  alterId: 0
+  cipher: auto
+- name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+  server: 139.28.240.68
+  port: 2086
+  udp: true
+  type: vmess
+  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+  alterId: 0
+  cipher: auto
+- name: 🇹🇷 土耳其 (Turkey) 09 - xiaohe
+  server: 153.52.92.81
+  port: 1080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: IXa3ylzS_jBOAsQy071tIQ
+- name: 🇹🇷 土耳其 (Turkey) 10 - xiaohe
   server: 139.28.240.68
   port: 1080
   udp: true
@@ -78,6 +113,10 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -89,5 +128,9 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
 rules:
 - MATCH,PROXIES

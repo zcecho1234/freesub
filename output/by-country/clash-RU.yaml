@@ -5,41 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 188.114.96.0
-  port: 443
-  udp: true
-  type: vless
-  uuid: 20836693-ea23-4f40-a1e7-48a6da897917
-  tls: true
-  servername: netra-85a0ca.shoameni19.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/VKec4m2dLHFngRv9xsOhnj9ZLjotNh?ed=2560
-    headers:
-      Host: netra-85a0ca.shoameni19.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 94.249.187.46
-  port: 2086
-  udp: true
-  type: vmess
-  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
-  alterId: 0
-  cipher: auto
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 130.49.189.158
-  port: 45433
-  udp: true
-  type: vless
-  uuid: 9b7a5b38-0a8e-4db8-9f1a-41e844b96456
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: dfJb8gJq6IRsE1KMsfZp5tNLiwBNQMbSl5NF1z5dq3c
-    short-id: 7033c39f
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   server: deutch.snappycore.com
   port: 443
   udp: true
@@ -52,7 +17,7 @@ proxies:
     short-id: 3d87c490ddd41305
   servername: deutch.snappycore.com
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: msk.frkn.org
   port: 443
   udp: true
@@ -60,15 +25,27 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 91.240.86.70
   port: 22443
   udp: true
   type: hysteria2
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: tr3.wba-pn.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  tls: true
+  servername: tr3.wba-pn.ru
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: 144.31.190.230
   port: 8443
   udp: true
@@ -81,14 +58,23 @@ proxies:
     short-id: '4326'
   servername: ozon.ru
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: 130.49.189.158
-  port: 43558
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: ru.xiaoliyu.cyou
+  port: 4433
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  server: mszz.mangshe.xyz
+  port: 20519
+  udp: true
+  type: hysteria2
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
   server: 46.8.200.91
   port: 443
   udp: true
@@ -102,39 +88,6 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  server: ru.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  server: 45.12.75.242
-  port: 26424
-  udp: true
-  type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
-  tls: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
-  server: tr3.wba-pn.ru
-  port: 443
-  udp: true
-  type: vless
-  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
-  tls: true
-  servername: tr3.wba-pn.ru
-  skip-cert-verify: false
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /
 proxy-groups:
 - name: PROXIES
   type: select
@@ -148,10 +101,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -165,9 +114,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
 rules:
 - MATCH,PROXIES
