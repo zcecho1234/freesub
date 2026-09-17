@@ -4,20 +4,95 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "206.1.97.61",
-      "server_port": 13323,
-      "method": "chacha20-ietf-poly1305",
-      "password": "XyodFtypR0xCFHyWW9gxqp15oU78njiX"
+      "server": "91.228.227.211",
+      "server_port": 23957,
+      "uuid": "92987ab8-0a53-4a16-8d6c-295d5df86404",
+      "security": "auto"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "server": "153.52.92.81",
-      "server_port": 2086,
-      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
-      "security": "auto"
+      "server": "156.67.63.231",
+      "server_port": 443,
+      "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sync-bridge.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
+          "short_id": "5606d4a25c99e7af"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "server": "max.karmatel.ir",
+      "server_port": 55519,
+      "uuid": "a2b9a1b7-f12f-4503-a9f6-c78ec565a6bf",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "play-apps-features.googleusercontent.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "server": "antar.cdkshop.ir",
+      "server_port": 8086,
+      "uuid": "01271baa-c5e3-4e2d-b43e-2c963c5bc21f",
+      "tls": {
+        "enabled": true,
+        "server_name": "pro.radeon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nnq5J3zXFDHUGvCza7e5CMa34oexEcXUqAfqz_YY7yo",
+          "short_id": "5b58b0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+      "server": "151.241.226.201",
+      "server_port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+          "short_id": "9e419c0759b54d6f"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
+      "server": "139.28.240.68",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "rSeYcig_XBy8q3k33NpK3A"
     },
     {
       "type": "selector",
@@ -25,7 +100,11 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 06 - xiaohe"
       ]
     },
     {
@@ -33,7 +112,11 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,15 +5,42 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 104.143.223.76
-  port: 2085
+  server: 31.58.181.88
+  port: 8443
   udp: true
   type: vless
-  uuid: 12813e61-ca56-48e3-ba31-ba193368bcbf
+  uuid: e16ab346-73be-4fc6-8b6f-511c455b8504
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+  server: 130.49.161.70
+  port: 443
+  udp: true
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+  server: 89.47.55.8
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 1c4298fc-505c-7055-d362-f0bd7b57677c
+  tls: true
+  reality-opts:
+    public-key: WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY
+  servername: download.nvidia.com
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
-    grpc-service-name: vless
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+    grpc-service-name: TunService
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 31.56.189.27
   port: 2087
   udp: true
@@ -26,47 +53,22 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: freegrpc
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 104.143.223.232
-  port: 2085
-  udp: true
-  type: vless
-  uuid: 12813e61-ca56-48e3-ba31-ba193368bcbf
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 31.58.181.88
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 130.49.161.70
+  server: 207.148.94.254
   port: 443
   udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
   skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  network: ws
+  ws-opts:
+    path: /library?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 85.204.107.174
-  port: 8080
-  udp: true
-  type: hysteria2
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  sni: hopp-romania-new.roxa.org
-  skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -76,18 +78,53 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
-  server: sa-18cf795a50985ad9.sr-fa525e02d0951c2f.r.vpvpn.club
+- name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  server: 146.70.102.82
   port: 443
   udp: true
   type: vless
-  uuid: 0c597b0d-99d7-4c27-befe-6c5d339d7dbe
+  uuid: 31fd2fde-ca69-450e-8c03-eaad819b06b9
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-  servername: baeb.edge-static.space
+    public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
+    short-id: 002fb4ec7b3088cc
+  servername: www.datadoghq.com
   client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  server: 85.204.107.183
+  port: 8080
+  udp: true
+  type: hysteria2
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
+  server: 45.196.201.168
+  port: 443
+  udp: true
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 10 - xiaohe
+  server: 78.40.195.140
+  port: 443
+  udp: true
+  type: vless
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo
+    short-id: 98096455d963bdbb
+  servername: www.booking.com
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -101,6 +138,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 09 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -114,5 +153,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 08 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 09 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 10 - xiaohe
 rules:
 - MATCH,PROXIES
