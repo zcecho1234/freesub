@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "64.225.110.247",
-      "server_port": 2083,
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "185.125.100.76",
+      "server_port": 8443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
@@ -20,7 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/acg/buy/ajax?ed=2560fp=chrome",
+        "path": "/trade/game/movies?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

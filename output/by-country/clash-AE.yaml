@@ -9,7 +9,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: 70bd60b1-f399-4df4-ad32-9adc40ae5f2c
+  uuid: 2eea435c-8c8f-45e3-8907-956a0c6b0182
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -25,7 +25,6 @@ proxies:
   tls: true
   servername: srv-21bac9.vless.monster
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: freegrpc
@@ -40,39 +39,22 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 89.47.55.8
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 1c4298fc-505c-7055-d362-f0bd7b57677c
-  tls: true
-  reality-opts:
-    public-key: WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 85.204.107.183
+  server: 85.204.107.173
   port: 8080
   udp: true
   type: hysteria2
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: uae.unixzone.us
-  port: 22573
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16284
   udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   server: 146.70.102.82
   port: 443
   udp: true
@@ -85,6 +67,17 @@ proxies:
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
   client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
