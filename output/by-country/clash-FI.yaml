@@ -5,24 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 82.47.186.18
-  port: 19290
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: o2rw2hICwu1blrr_gZAl2Q
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 104.16.72.101
-  port: 80
-  udp: true
-  type: vless
-  uuid: d5598622-46b8-b017-3af3-232500000001
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -33,21 +15,8 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
-  server: 5.61.91.206
-  port: 443
-  udp: true
-  type: vless
-  uuid: bd99da97-265e-0021-82cc-4ec009fe9ce2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 0a4b7c3d
-  servername: www.amd.com
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  client-fingerprint: ''
+- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 37.143.129.244
   port: 443
   udp: true
@@ -60,32 +29,7 @@ proxies:
     short-id: 48fd192dc4e46bc0
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
-  server: 31.77.199.182
-  port: 443
-  udp: true
-  type: vless
-  uuid: c09cfd91-b234-4998-9bed-a0211b7f5c3c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: -qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04
-    short-id: abcd1234
-  servername: fi2.yservice.help
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
-  server: 185.79.138.71
-  port: 448
-  udp: true
-  type: vless
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  tls: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-    short-id: cd21e552537c7c0b
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: 31.77.199.147
   port: 4443
   udp: true
@@ -97,7 +41,45 @@ proxies:
     public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
     short-id: 7da2eae792187ab9
   servername: images.unsplash.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 31.77.199.182
+  port: 443
+  udp: true
+  type: vless
+  uuid: c09cfd91-b234-4998-9bed-a0211b7f5c3c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: -qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04
+    short-id: abcd1234
+  servername: fi2.yservice.help
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  server: 185.79.138.71
+  port: 448
+  udp: true
+  type: vless
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  tls: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+    short-id: cd21e552537c7c0b
+  servername: www.samsung.com
   client-fingerprint: random
+- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
+  server: 185.255.179.11
+  port: 9443
+  udp: true
+  type: vless
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: hub-fi-01.hanvpn.cc
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fi01-grpc-8e47a
 proxy-groups:
 - name: PROXIES
   type: select
@@ -109,8 +91,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
   - 🇫🇮 芬兰 (Finland) 06 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 07 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -122,7 +102,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
   - 🇫🇮 芬兰 (Finland) 06 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 07 - xiaohe
-  - 🇫🇮 芬兰 (Finland) 08 - xiaohe
 rules:
 - MATCH,PROXIES
