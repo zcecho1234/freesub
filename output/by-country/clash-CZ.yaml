@@ -5,34 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.166.60.219
-  port: 8443
+  server: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
+  port: 2052
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
+  uuid: 401d950d-4f5c-45c7-bf44-8b69acf35f6f
   network: ws
   ws-opts:
-    path: /groups/pictures?ed=2560
+    path: /eyJqdW5rIjoic3pLZkVUMlIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
     headers:
-      Host: cdn8848.776676.xyz
+      Host: 7x70yyvt7eqotx-iq9n3rjt1xn1jwkh9.asdfsafdsaf.workers.dev
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 147.90.229.204
-  port: 443
+  server: 188.114.97.6
+  port: 8080
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
+  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
   network: ws
   ws-opts:
-    path: /sort/outbound/redirect.php?ed=2560fp=chrome
+    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
     headers:
-      Host: cdn8848.776676.xyz
+      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 194.87.59.13
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 6687af93-eb39-47a3-9a73-0f79234ef507
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +42,7 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +50,6 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
+  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
