@@ -5,41 +5,78 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: ccs2g.pai50288.uk
+  server: 104.16.10.185
   port: 443
   udp: true
   type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   tls: true
-  servername: ccs2g.pai50288.uk
+  servername: v2ray.simspeedup.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /pai50288
+    path: /ws
     headers:
-      Host: ccs2g.pai50288.uk
+      Host: v2ray.simspeedup.com
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 162.159.244.91
+  server: 104.25.30.10
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: vless
+  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
+  tls: true
+  servername: de14.69lover.my
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /api/v2/6c316c769ad6853c/stream
+    headers:
+      Host: de14.69lover.my
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 162.159.244.91
+  server: 104.25.30.10
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: vless
+  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
+  tls: true
+  servername: de14.69lover.my
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /api/v2/6c316c769ad6853c/stream
+    headers:
+      Host: de14.69lover.my
+- name: 🌐 其他地区 (Other) 04 - xiaohe
+  server: 104.25.30.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
+  tls: true
+  servername: de14.69lover.my
+  skip-cert-verify: false
+  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /api/v2/6c316c769ad6853c/stream
+    headers:
+      Host: de14.69lover.my
+- name: 🌐 其他地区 (Other) 05 - xiaohe
+  server: 104.25.30.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: 807cd1e0-f4ce-4785-b7a3-cde0c1614b8d
+  tls: true
+  servername: de14.69lover.my
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/v2/6c316c769ad6853c/stream
+    headers:
+      Host: de14.69lover.my
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +85,8 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - xiaohe
   - 🌐 其他地区 (Other) 02 - xiaohe
   - 🌐 其他地区 (Other) 03 - xiaohe
+  - 🌐 其他地区 (Other) 04 - xiaohe
+  - 🌐 其他地区 (Other) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +95,7 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - xiaohe
   - 🌐 其他地区 (Other) 02 - xiaohe
   - 🌐 其他地区 (Other) 03 - xiaohe
+  - 🌐 其他地区 (Other) 04 - xiaohe
+  - 🌐 其他地区 (Other) 05 - xiaohe
 rules:
 - MATCH,PROXIES
