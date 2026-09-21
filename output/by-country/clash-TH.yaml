@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: v2ray.simspeedup.com
+  server: 103.86.49.57
   port: 80
   udp: true
   type: vless
@@ -13,8 +13,6 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-    headers:
-      Host: ais.speedtest.net
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
   server: 34.15.162.1
   port: 443
@@ -26,9 +24,9 @@ proxies:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
     short-id: ca672c53fbbac555
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 104.21.34.106
+  server: 162.159.192.125
   port: 443
   udp: true
   type: vless
