@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇱 智利 (Chile) 01 - xiaohe
-  server: 64.176.23.207
+  server: platform118.golnamakcert.top
   port: 80
   udp: true
   type: vless
@@ -37,7 +37,7 @@ proxies:
     public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
     short-id: d7676b6a468a03b3
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: random
 - name: 🇨🇱 智利 (Chile) 04 - xiaohe
   server: platform109.golnamakcert.top
   port: 80
