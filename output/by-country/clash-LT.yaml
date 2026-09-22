@@ -13,18 +13,18 @@ proxies:
   password: xaupMUvhptwxdDUg
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
   server: 195.238.126.20
-  port: 9002
+  port: 9086
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: b8KkNDjEd5QqFyRm
+  password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   server: 195.238.126.20
-  port: 9068
+  port: 9045
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
+  password: Lp27rqyJq72bZsqX
 - name: 🇱🇹 立陶宛 (Lithuania) 04 - xiaohe
   server: 84.32.215.5
   port: 443
@@ -38,6 +38,19 @@ proxies:
     short-id: 4fa44664f6a566d3
   servername: lt.aether-runet.top
   client-fingerprint: chrome
+- name: 🇱🇹 立陶宛 (Lithuania) 05 - xiaohe
+  server: 5.199.169.170
+  port: 443
+  udp: true
+  type: vless
+  uuid: cb4259d5-9c7e-4b7d-b766-5deae8044b45
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
+    short-id: 20f690531579cc72
+  servername: westcostlt.responsiblecare.uk
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +60,7 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
   - 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   - 🇱🇹 立陶宛 (Lithuania) 04 - xiaohe
+  - 🇱🇹 立陶宛 (Lithuania) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +70,6 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
   - 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   - 🇱🇹 立陶宛 (Lithuania) 04 - xiaohe
+  - 🇱🇹 立陶宛 (Lithuania) 05 - xiaohe
 rules:
 - MATCH,PROXIES
