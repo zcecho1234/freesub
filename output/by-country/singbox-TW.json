@@ -11,7 +11,7 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3",
+        "server_name": "https://t.me/oneclickvpnkeys",
         "insecure": true
       }
     },
@@ -27,7 +27,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -37,8 +37,32 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "server": "vpn-tw-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vk.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
+      "server": "85.237.207.49",
+      "server_port": 50160,
+      "password": "a56619e2bed91121eabb97d20be207c3",
+      "tls": {
+        "enabled": true,
+        "server_name": "85-237-207-49.liao.kdns.fr",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
       "server": "35.201.163.218",
       "server_port": 30837,
       "uuid": "85a6bd94-83a9-4e80-849f-c06d7011d1a4",
@@ -48,7 +72,7 @@
         "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -59,28 +83,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-      "server": "35.221.158.209",
-      "server_port": 32981,
-      "uuid": "41b96ee9-ee5e-455f-9753-187a9dead97a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JSn0GPz1WOSTUDBxN_XYnhgb2Jpjc2LpfBTzX1j3V2E",
-          "short_id": "70f4b7a4c40636"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - xiaohe",
       "server": "35.194.157.16",
       "server_port": 43450,
       "uuid": "64d77a12-ad6b-4d85-a349-bd287535af1c",
@@ -90,25 +93,13 @@
         "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
           "public_key": "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o",
           "short_id": "e65d010354bdad73"
         }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - xiaohe",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "css.rbxcdn.com",
-        "insecure": true
       }
     },
     {
@@ -123,7 +114,7 @@
         "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -135,23 +126,21 @@
     {
       "type": "vless",
       "tag": "🇹🇼 中国台湾 (Taiwan) 08 - xiaohe",
-      "server": "130.94.36.232",
-      "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "35.221.158.209",
+      "server_port": 32981,
+      "uuid": "41b96ee9-ee5e-455f-9753-187a9dead97a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
+        "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/channels/act?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JSn0GPz1WOSTUDBxN_XYnhgb2Jpjc2LpfBTzX1j3V2E",
+          "short_id": "70f4b7a4c40636"
         }
       }
     },
