@@ -6,15 +6,21 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.70.21",
-      "server_port": 8080,
-      "uuid": "8f53fce2-6c17-4e37-9ae9-d969fd85117c",
-      "transport": {
-        "type": "ws",
-        "path": "/vl/Wp4FqWLcoYNYXCovu4?ed=2560",
-        "headers": {
-          "Host": "api-hub-c9a393.alimirzai539-484.workers.dev"
+      "server": "193.8.215.96",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "tls": {
+        "enabled": true,
+        "server_name": "hub-de-03.hanvpn.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "de03-grpc-8e47a"
       }
     },
     {
