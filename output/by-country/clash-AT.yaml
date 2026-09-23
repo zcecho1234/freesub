@@ -25,13 +25,18 @@ proxies:
   servername: at.quattro-tech.ru
   client-fingerprint: chrome
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: 86.106.119.23
-  port: 443
+  server: 45.86.245.107
+  port: 5865
   udp: true
-  type: trojan
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  sni: gr.freeguard.org
-  skip-cert-verify: false
+  type: vless
+  uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI
+    short-id: a4f7c2e91b6d8035
+  servername: ru.vkroom-it-service.xyz
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
