@@ -35,21 +35,23 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "45.86.245.107",
-      "server_port": 5865,
-      "uuid": "ce230b9c-0531-40da-bc3f-f27a8e059db1",
-      "flow": "xtls-rprx-vision",
+      "server": "91.186.218.227",
+      "server_port": 4443,
+      "uuid": "d548eca0-3f96-4967-922b-d612b792f125",
       "tls": {
         "enabled": true,
-        "server_name": "ru.vkroom-it-service.xyz",
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI",
-          "short_id": "a4f7c2e91b6d8035"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
         }
       }
     },

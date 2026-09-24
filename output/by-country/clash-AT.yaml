@@ -25,18 +25,20 @@ proxies:
   servername: at.quattro-tech.ru
   client-fingerprint: chrome
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: 45.86.245.107
-  port: 5865
+  server: 91.186.218.227
+  port: 4443
   udp: true
   type: vless
-  uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1
-  flow: xtls-rprx-vision
+  uuid: d548eca0-3f96-4967-922b-d612b792f125
   tls: true
-  reality-opts:
-    public-key: 1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI
-    short-id: a4f7c2e91b6d8035
-  servername: ru.vkroom-it-service.xyz
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
