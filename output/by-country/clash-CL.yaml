@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇱 智利 (Chile) 01 - xiaohe
-  server: platform108.golnamakcert.top
+  server: 64.176.21.237
   port: 80
   udp: true
   type: vless
@@ -13,8 +13,10 @@ proxies:
   network: ws
   ws-opts:
     path: /platform108
+    headers:
+      Host: platform108.halalkhor.info
 - name: 🇨🇱 智利 (Chile) 02 - xiaohe
-  server: platform109.golnamakcert.top
+  server: 64.176.4.15
   port: 80
   udp: true
   type: vless
@@ -22,6 +24,8 @@ proxies:
   network: ws
   ws-opts:
     path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
