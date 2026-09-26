@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "server": "namrcg001640lrm.cybervena.com",
+      "server": "36.224.141.124",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
-      "password": "7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56"
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
       "type": "vless",
@@ -22,7 +22,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -32,12 +32,21 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+      "server": "125.224.202.118",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a9a0d092-6f0e-4701-81ee-454643d6d506"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ]
     },
     {
@@ -45,7 +54,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
