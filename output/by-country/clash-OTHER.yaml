@@ -5,31 +5,64 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.18.15.103
+  server: 104.21.5.156
   port: 443
   udp: true
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   tls: true
-  servername: server9.9966338.xyz
+  servername: 5-M13.1332afdc-0737-4BB1-8CA8-EE4F0cd20Bc6.KdNs.FR
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /imnotarealherox
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: server9.9966338.xyz
+      Host: 5-m13.1332aFDC-0737-4bB1-8cA8-Ee4f0cD20bC6.Kdns.fR
+- name: 🌐 其他地区 (Other) 02 - xiaohe
+  server: 104.21.5.156
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  tls: true
+  servername: 2-m13.1332afdc-0737-4bb1-8ca8-ee4f0cd20bc6.kdns.fr
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-m13.1332afdc-0737-4bb1-8ca8-ee4f0cd20bc6.kdns.fr
+- name: 🌐 其他地区 (Other) 03 - xiaohe
+  server: 104.21.5.156
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  tls: true
+  servername: 2-m13.1332afdc-0737-4bb1-8ca8-ee4f0cd20bc6.kdns.fr
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-m13.1332afdc-0737-4bb1-8ca8-ee4f0cd20bc6.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🌐 其他地区 (Other) 02 - xiaohe
+  - 🌐 其他地区 (Other) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🌐 其他地区 (Other) 02 - xiaohe
+  - 🌐 其他地区 (Other) 03 - xiaohe
 rules:
 - MATCH,PROXIES
