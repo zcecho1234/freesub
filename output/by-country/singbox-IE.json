@@ -13,15 +13,9 @@
     {
       "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
-      "server": "50.7.5.165",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir-new1.failspace.top",
-        "insecure": true
-      }
+      "server": "18.169.126.60",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
     },
     {
       "type": "vless",
@@ -35,7 +29,7 @@
         "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -45,13 +39,35 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
+      "server": "ireland-new-ded1.failspace.top",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ireland-new-ded1.failspace.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 05 - xiaohe",
+      "server": "18.169.126.60",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
         "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
-        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 05 - xiaohe"
       ]
     },
     {
@@ -60,7 +76,9 @@
       "outbounds": [
         "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
         "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
-        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
+        "🇮🇪 爱尔兰 (Ireland) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
