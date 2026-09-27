@@ -4,12 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe",
-      "server": "66.163.113.176",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
+      "server": "15.235.75.71",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "FD3rCuOsxOay"
     },
     {
       "type": "vmess",
@@ -22,265 +22,22 @@
     {
       "type": "shadowsocks",
       "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
-      "server": "142.4.216.225",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mrs2e9a"
+      "server": "185.156.47.97",
+      "server_port": 9443,
+      "method": "aes-256-gcm",
+      "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
-      "server": "162.159.153.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
-      "server": "134.195.196.211",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
-      "server": "51.79.64.198",
-      "server_port": 8119,
+      "server": "51.222.200.165",
+      "server_port": 5000,
       "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
-      "server": "15.235.75.71",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "FD3rCuOsxOay"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
-      "server": "162.159.81.104",
-      "server_port": 80,
-      "uuid": "4b00d726-e072-429b-997e-f07affea3b7f",
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
-        "headers": {
-          "Host": "icy-darkness-8ff1.farzambia12mo.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
-      "server": "103.133.1.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime36.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
-      "server": "104.17.148.22",
-      "server_port": 80,
-      "uuid": "63f1ef69-92fd-427a-b3e4-98ffddf81ac6",
-      "transport": {
-        "type": "ws",
-        "path": "/nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=",
-        "headers": {
-          "Host": "young-rice-749e.heliy78750.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
-      "server": "104.18.32.47",
-      "server_port": 2087,
-      "uuid": "5a0028f9-c656-cec9-4b61-54678477a408",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/game",
-        "headers": {
-          "Host": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
-      "server": "172.67.192.84",
-      "server_port": 2095,
-      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
-      "transport": {
-        "type": "ws",
-        "path": "/juvsrnmgdu8i0179k5 ",
-        "headers": {
-          "Host": "index.harmonica02.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
-      "transport": {
-        "type": "ws",
-        "path": "/j100sy9wn073cxbvir",
-        "headers": {
-          "Host": "index.harmonica02.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
-      "server": "51.79.49.116",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
-      "server": "66.235.200.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime47.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "fee1da7e-a258-4456-8e5e-8ecf6518ed12",
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiemxGMEFDU1VDRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "ez-82c7e7.abobaba.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
-      "server": "114.129.43.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime04.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
-      "server": "138.197.141.58",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
-      "server": "188.114.96.3",
-      "server_port": 2087,
-      "uuid": "756e8f39-04e8-436d-b5c6-905d37d9562c",
-      "tls": {
-        "enabled": true,
-        "server_name": "ez-98919a.motoricb.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiR1BxUFhYR0w1TlBLMTRsIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ",
-        "headers": {
-          "Host": "ez-98919a.motoricb.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
-      "server": "104.21.70.21",
-      "server_port": 443,
-      "uuid": "fee1da7e-a258-4456-8e5e-8ecf6518ed12",
-      "tls": {
-        "enabled": true,
-        "server_name": "ez-82c7e7.abobaba.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiemxGMEFDU1VDRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "ez-82c7e7.abobaba.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
-      "server": "137.184.174.93",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
+      "password": "Y6R9pAtvxxzmGC"
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
       "server": "15.223.122.197",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -291,76 +48,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
-      "server": "soskeynets-8tnpd.hsysyegegrygvvvdujhh.workers.dev",
-      "server_port": 443,
-      "uuid": "527451fe-ee1f-4e6f-94ca-808f055f7c9b",
-      "tls": {
-        "enabled": true,
-        "server_name": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/ERYN0G44hia16zhR",
-        "headers": {
-          "Host": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
-      "server": "185.156.47.97",
-      "server_port": 9443,
-      "method": "aes-256-gcm",
-      "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH"
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
+      "server": "66.163.113.176",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
-      "server": "199.181.197.40",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime19.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 26 - xiaohe",
-      "server": "104.18.0.1",
-      "server_port": 443,
-      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
-      "tls": {
-        "enabled": true,
-        "server_name": "all.speedtest03.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "all.speedtest03.ccwu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
       "server": "66.70.179.198",
       "server_port": 2053,
       "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
@@ -369,7 +66,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -379,34 +76,24 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
-      "server": "104.21.29.250",
-      "server_port": 443,
-      "password": "LcICDcp!jD9TFV$NbH",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560",
-        "headers": {
-          "Host": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
-        }
-      }
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
+      "server": "134.195.196.211",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
+      "server": "51.79.49.116",
+      "server_port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 29 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
       "server": "158.51.121.123",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -425,52 +112,69 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 30 - xiaohe",
-      "server": "130.107.73.148",
-      "server_port": 41373,
-      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
+      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
+      "server": "209.200.246.148",
+      "server_port": 443,
+      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
-          "short_id": "0e"
+          "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
+          "short_id": "f98843107912e782"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 31 - xiaohe",
-      "server": "188.114.97.6",
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
+      "server": "138.197.141.58",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
+      "server": "137.184.174.93",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
+      "server": "149.22.95.183",
       "server_port": 443,
-      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
-      "tls": {
-        "enabled": true,
-        "server_name": "all.speedtest03.ccwu.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "all.speedtest03.ccwu.cc"
-        }
-      }
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
+      "server": "158.51.123.42",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 32 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
       "server": "158.69.112.254",
       "server_port": 443,
       "uuid": "661f395d-b153-4199-a04b-693f5fe7f261",
@@ -490,344 +194,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 33 - xiaohe",
-      "server": "restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev",
-      "server_port": 2053,
-      "uuid": "dc1e9f00-c064-4870-9bfc-463db50257d7",
-      "tls": {
-        "enabled": true,
-        "server_name": "restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoicVkwaG9XUUQyUDhzRkZ5UiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 34 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ezaccess-project-f62c30.pages.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "ezaccess-project-f62c30.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 35 - xiaohe",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 36 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "ee556a4f-d9f6-44de-af02-42c51659416a",
-      "tls": {
-        "enabled": true,
-        "server_name": "novantunnel.tech",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Novan-AE9",
-        "headers": {
-          "Host": "novantunnel.tech"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 37 - xiaohe",
-      "server": "104.21.81.162",
-      "server_port": 443,
-      "uuid": "20836693-ea23-4f40-a1e7-48a6da897917",
-      "tls": {
-        "enabled": true,
-        "server_name": "netra-85a0ca.shoameni19.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui",
-        "headers": {
-          "Host": "netra-85a0ca.shoameni19.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 38 - xiaohe",
-      "server": "104.21.67.122",
-      "server_port": 443,
-      "uuid": "ee556a4f-d9f6-44de-af02-42c51659416a",
-      "tls": {
-        "enabled": true,
-        "server_name": "novantunnel.tech",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Novan-AE9",
-        "headers": {
-          "Host": "novantunnel.tech"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 39 - xiaohe",
-      "server": "104.21.70.21",
-      "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
-      "tls": {
-        "enabled": true,
-        "server_name": "playlux.homes",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/raccoonwsvless",
-        "headers": {
-          "Host": "playlux.homes"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 40 - xiaohe",
-      "server": "172.67.141.75",
-      "server_port": 443,
-      "uuid": "de78c0b1-c5c8-412a-bd92-430d1f2e2642",
-      "tls": {
-        "enabled": true,
-        "server_name": "frosty-pond-7436.shhabbyat914.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/NmrU9ImDG7jA7oFEem",
-        "headers": {
-          "Host": "frosty-pond-7436.shhabbyat914.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 41 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-48493148ec15",
-      "tls": {
-        "enabled": true,
-        "server_name": "cgzdynepurqs.mercury061.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/48493148ec15",
-        "headers": {
-          "Host": "cgzdynepurqs.mercury061.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 42 - xiaohe",
-      "server": "wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev",
-      "server_port": 443,
-      "uuid": "07821f66-cdb7-4c70-9de6-e230cffac470",
-      "tls": {
-        "enabled": true,
-        "server_name": "wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/li1khihh3dnitjyzraemspbqvu",
-        "headers": {
-          "Host": "wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 43 - xiaohe",
-      "server": "209.200.246.148",
-      "server_port": 443,
-      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
-          "short_id": "f98843107912e782"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 44 - xiaohe",
-      "server": "158.51.123.42",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 45 - xiaohe",
-      "server": "104.21.0.87",
-      "server_port": 443,
-      "uuid": "5da16620-0386-4da3-a252-12a6380ed1a6",
-      "tls": {
-        "enabled": true,
-        "server_name": "server3.pegibol940.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiUHRlMEpuSzRFY1EyeUUwIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=",
-        "headers": {
-          "Host": "server3.pegibol940.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 46 - xiaohe",
-      "server": "104.21.98.146",
-      "server_port": 8443,
-      "uuid": "50414e45-4c5f-5a45-5553-48493148ec15",
-      "tls": {
-        "enabled": true,
-        "server_name": "cgzdynepurqs.mercury061.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/48493148ec15",
-        "headers": {
-          "Host": "cgzdynepurqs.mercury061.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 47 - xiaohe",
-      "server": "172.67.145.5",
-      "server_port": 443,
-      "uuid": "20836693-ea23-4f40-a1e7-48a6da897917",
-      "tls": {
-        "enabled": true,
-        "server_name": "netra-85a0ca.shoameni19.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui",
-        "headers": {
-          "Host": "netra-85a0ca.shoameni19.workers.dev"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 48 - xiaohe",
-      "server": "149.22.95.183",
+      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
+      "server": "142.4.216.225",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "method": "chacha20-ietf-poly1305",
+      "password": "mrs2e9a"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 49 - xiaohe",
-      "server": "104.21.66.137",
-      "server_port": 2087,
-      "uuid": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-      "tls": {
-        "enabled": true,
-        "server_name": "o5zmxbeoutis.o7zluiebuo8s.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/05920b4f8f35",
-        "headers": {
-          "Host": "o5zmxbeoutis.o7zluiebuo8s.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 50 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "813cd228-ebf6-0e21-481a-ba4af8f85b82",
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "odd-disk-98c5.assassincreed4048.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 51 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
       "server": "66.70.179.124",
       "server_port": 443,
       "uuid": "c8f9e08d-7d07-4059-9f71-0b014b9e0ec7",
@@ -847,400 +223,49 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇦 加拿大 (Canada) 52 - xiaohe",
-      "server": "app-538961.user-y0o4gm.workers.dev",
-      "server_port": 443,
-      "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-      "tls": {
-        "enabled": true,
-        "server_name": "app-538961.user-y0o4gm.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 53 - xiaohe",
-      "server": "172.67.130.144",
-      "server_port": 443,
-      "uuid": "7da33b25-cdd6-e481-afcf-c5d532361a70",
+      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
+      "server": "130.107.73.148",
+      "server_port": 41373,
+      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ez-1bc8ab.sekiro-c18.workers.dev",
-        "insecure": false,
+        "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "ez-1bc8ab.sekiro-c18.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 54 - xiaohe",
-      "server": "172.67.133.170",
-      "server_port": 443,
-      "uuid": "7c6a566b-4c4a-b8f2-1719-a3096b424141",
-      "tls": {
-        "enabled": true,
-        "server_name": "peekconfigg.vipserver1-39d.workers.dev",
-        "insecure": false,
-        "utls": {
+          "fingerprint": "firefox"
+        },
+        "reality": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "peekconfigg.vipserver1-39d.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 55 - xiaohe",
-      "server": "172.64.155.209",
-      "server_port": 8443,
-      "uuid": "4ff70740-8c80-48ae-985f-2afe4924e908",
-      "tls": {
-        "enabled": true,
-        "server_name": "pubb.clnahanpnln.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "pubb.clnahanpnln.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 56 - xiaohe",
-      "server": "ez-4b5fd4.appelidmymat.workers.dev",
-      "server_port": 443,
-      "uuid": "566c0473-382e-aabb-c62a-f5bb00000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "ez-4b5fd4.appelidmymat.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "ez-4b5fd4.appelidmymat.workers.dev"
+          "public_key": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
+          "short_id": "0e"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 57 - xiaohe",
-      "server": "51.222.136.236",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 58 - xiaohe",
-      "server": "172.67.152.162",
-      "server_port": 443,
-      "uuid": "07f9bc85-613f-4a33-8da1-191973c43c0a",
-      "tls": {
-        "enabled": true,
-        "server_name": "app-q0zc4t.user-4gfyh5.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "app-q0zc4t.user-4gfyh5.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 59 - xiaohe",
-      "server": "172.67.133.170",
-      "server_port": 2096,
-      "uuid": "7c6a566b-4c4a-b8f2-1719-a3096b424141",
-      "tls": {
-        "enabled": true,
-        "server_name": "peekconfigg.vipserver1-39d.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "peekconfigg.vipserver1-39d.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 60 - xiaohe",
-      "server": "172.64.80.1",
-      "server_port": 443,
-      "uuid": "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633",
-      "tls": {
-        "enabled": true,
-        "server_name": "curly-night-6928.ggdhchjk.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "curly-night-6928.ggdhchjk.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 61 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "73796e63-0000-4000-8000-000000000000",
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "wireguard.ahmad-kh5716.workers.dev"
-        }
-      }
+      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
+      "server": "51.222.107.43",
+      "server_port": 2083,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 62 - xiaohe",
-      "server": "51.222.155.32",
-      "server_port": 5003,
-      "method": "aes-256-gcm",
-      "password": "g5MeD6Ft3CWlJId"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 63 - xiaohe",
-      "server": "nahan-core.fatitelegram.workers.dev",
-      "server_port": 443,
-      "uuid": "73796e63-0000-4000-8000-000000000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "nahan-core.fatitelegram.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 64 - xiaohe",
-      "server": "104.21.78.225",
-      "server_port": 443,
-      "uuid": "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633",
-      "tls": {
-        "enabled": true,
-        "server_name": "curly-night-6928.ggdhchjk.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "curly-night-6928.ggdhchjk.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 65 - xiaohe",
-      "server": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev",
-      "server_port": 2087,
-      "uuid": "5a0028f9-c656-cec9-4b61-54678477a408",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp=qq"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 66 - xiaohe",
-      "server": "104.16.174.164",
-      "server_port": 443,
-      "uuid": "73796e63-0000-4000-8000-000000000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "wireguard.ahmad-kh5716.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wireguard.ahmad-kh5716.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 67 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "a8b1d666-d3ba-4b17-90c4-ba7514c74f78",
-      "transport": {
-        "type": "ws",
-        "path": "/xiron",
-        "headers": {
-          "Host": "xstack.mahanfixe.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 68 - xiaohe",
-      "server": "172.67.214.106",
-      "server_port": 443,
-      "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 69 - xiaohe",
-      "server": "51.222.155.113",
-      "server_port": 5601,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 70 - xiaohe",
-      "server": "soskeynets-meadow-af5b.woowoorrrkk.workers.dev",
-      "server_port": 443,
-      "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "soskeynets-meadow-af5b.woowoorrrkk.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 71 - xiaohe",
-      "server": "51.222.200.165",
-      "server_port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 72 - xiaohe",
-      "server": "51.222.12.127",
+      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
+      "server": "51.222.141.125",
       "server_port": 445,
       "method": "aes-256-gcm",
       "password": "zDNVedRFPQexG9v"
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 73 - xiaohe",
-      "server": "104.19.124.226",
-      "server_port": 2095,
-      "uuid": "50414e45-4c5f-5a45-5553-cee599ec8b57",
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/cee599ec8b57",
-        "headers": {
-          "Host": "zeus-panel-mvtum1.mahdiharchegani.workers.dev"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 74 - xiaohe",
-      "server": "51.79.85.185",
-      "server_port": 8118,
+      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
+      "server": "51.222.12.127",
+      "server_port": 445,
       "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 75 - xiaohe",
-      "server": "51.222.107.43",
-      "server_port": 2083,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs="
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "type": "selector",
@@ -1269,59 +294,7 @@
         "🇨🇦 加拿大 (Canada) 20 - xiaohe",
         "🇨🇦 加拿大 (Canada) 21 - xiaohe",
         "🇨🇦 加拿大 (Canada) 22 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 23 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 24 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 25 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 26 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 27 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 28 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 29 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 30 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 31 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 32 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 33 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 34 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 35 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 36 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 37 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 38 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 39 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 40 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 41 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 42 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 43 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 44 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 45 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 46 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 47 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 48 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 49 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 50 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 51 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 52 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 53 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 54 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 55 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 56 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 57 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 58 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 59 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 60 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 61 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 62 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 63 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 64 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 65 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 66 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 67 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 68 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 69 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 70 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 71 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 72 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 73 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 74 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 75 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 23 - xiaohe"
       ]
     },
     {
@@ -1350,59 +323,7 @@
         "🇨🇦 加拿大 (Canada) 20 - xiaohe",
         "🇨🇦 加拿大 (Canada) 21 - xiaohe",
         "🇨🇦 加拿大 (Canada) 22 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 23 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 24 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 25 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 26 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 27 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 28 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 29 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 30 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 31 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 32 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 33 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 34 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 35 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 36 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 37 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 38 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 39 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 40 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 41 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 42 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 43 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 44 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 45 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 46 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 47 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 48 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 49 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 50 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 51 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 52 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 53 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 54 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 55 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 56 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 57 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 58 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 59 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 60 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 61 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 62 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 63 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 64 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 65 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 66 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 67 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 68 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 69 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 70 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 71 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 72 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 73 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 74 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 75 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 23 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
