@@ -6,23 +6,23 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "153.76.185.93",
-      "server_port": 3090,
-      "uuid": "d21a3080-7011-47a1-9b1e-297578f28b3f",
+      "server": "104.19.35.170",
+      "server_port": 443,
+      "uuid": "bd8c736e-cae1-43d7-b573-9672e6ca4989",
+      "tls": {
+        "enabled": true,
+        "server_name": "l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "194.87.59.96",
-      "server_port": 2085,
-      "uuid": "6864bd16-f8bb-457c-a191-dca5b80ca32a",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/vl/zXLTmz3hE3szn64f?ed=2560",
+        "headers": {
+          "Host": "l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev"
+        }
       }
     },
     {
@@ -30,16 +30,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
