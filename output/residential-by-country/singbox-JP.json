@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-      "server": "141.11.90.160",
-      "server_port": 443,
-      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "129.153.71.28",
+      "server_port": 28863,
+      "uuid": "4f1f5604-a256-4432-a477-52c3dce7dded",
       "tls": {
         "enabled": true,
-        "server_name": "yf.962456.xyz",
+        "server_name": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/proxyip=kr.william.us.ci",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "yf.962456.xyz"
+          "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

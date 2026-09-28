@@ -21,7 +21,7 @@
         "type": "ws",
         "path": "/ws",
         "headers": {
-          "Host": "v2ray.simspeedup.com"
+          "Host": "aIs.SpEeDtEsT.nEt"
         }
       }
     },
