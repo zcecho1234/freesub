@@ -4,21 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-      "server": "188.114.97.6",
+      "type": "vless",
+      "tag": "🇦🇱 AL 01 - xiaohe",
+      "server": "85.155.228.185",
       "server_port": 443,
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
       "tls": {
         "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/trojan",
-        "headers": {
-          "Host": "id1.nathaya.web.id"
+        "server_name": "avsal.krusofiya.fun",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8",
+          "short_id": "4d5faa03b738bd3b"
         }
       }
     },
@@ -27,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
