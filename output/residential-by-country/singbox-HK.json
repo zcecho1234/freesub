@@ -4,30 +4,35 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com",
+      "server": "218.250.216.236",
       "server_port": 443,
-      "password": "5f091cbe-fb34-11ea-9777-f23c9164ca5d",
+      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com",
-        "insecure": true
+        "server_name": "download.windowsupdate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
+          "short_id": ""
+        }
       }
     },
     {
-      "type": "vmess",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "server": "az-1.linkaa.xyz",
-      "server_port": 53110,
-      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/game/resources",
-        "headers": {
-          "Host": "az-1.linkaa.xyz"
-        }
+      "server": "bff4b219-tmkao0-tnnrly-g43g.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "6ddb6a68-d5f5-ca30-3943-cf0c9876d50c",
+      "tls": {
+        "enabled": true,
+        "server_name": "bff4b219-tmkao0-tnnrly-g43g.hk3.hyhuawei.com",
+        "insecure": true
       }
     },
     {
