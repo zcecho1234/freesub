@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
-  server: 130.250.137.30
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime05.workers.dev
-- name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
   server: ie.tronsg.com
   port: 443
   udp: true
@@ -23,7 +12,7 @@ proxies:
   password: Trojan@82164024
   sni: ie.tronsg.com
   skip-cert-verify: true
-- name: 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
+- name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
   server: 3.9.135.156
   port: 51847
   udp: true
@@ -35,7 +24,7 @@ proxies:
     public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
     short-id: 0eec442e7b34d2f2
   servername: www.tesla.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -43,7 +32,6 @@ proxy-groups:
   - AUTO
   - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
   - 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -51,6 +39,5 @@ proxy-groups:
   proxies:
   - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
   - 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
 rules:
 - MATCH,PROXIES
