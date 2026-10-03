@@ -6,24 +6,12 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "4d216440-tmm5c0-u4ai7k-z7a1.hk3.hyhuawei.com",
+      "server": "95691df5-tmm5c0-trpvht-1ey07.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "3bd247a8-993e-11ec-a8bf-f23c91cfbbc9",
+      "password": "203d1d64-3313-11ed-bb74-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "4d216440-tmm5c0-u4ai7k-z7a1.hk3.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "server": "f7f87486-tmm5c0-ts3rye-mrtr.nw4.hyhuawei.com",
-      "server_port": 443,
-      "password": "28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "f7f87486-tmm5c0-ts3rye-mrtr.nw4.hyhuawei.com",
+        "server_name": "95691df5-tmm5c0-trpvht-1ey07.hk3.hyhuawei.com",
         "insecure": true
       }
     },
@@ -32,16 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
