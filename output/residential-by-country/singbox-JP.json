@@ -5,20 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe",
-      "server": "geo.shkola112.site",
-      "server_port": 443,
-      "uuid": "76ac91c5-ea82-4046-8ee7-2ffbb563ac94",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "210.152.85.154",
+      "server_port": 19364,
+      "uuid": "9dbc54c6-aad1-4b30-8c4d-8abe0c0ea826",
       "tls": {
         "enabled": true,
-        "server_name": "geo.shkola112.site",
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/api-vless",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "geo.shkola112.site"
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
         }
       }
     },
@@ -27,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
