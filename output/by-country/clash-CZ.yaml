@@ -5,26 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 153.76.190.41
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: 3a92b39a-5f02-415e-a908-783ec320e83f
-  sni: speedtestmark.com
-  skip-cert-verify: false
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 85.117.235.50
+  server: 8.6.112.9
   port: 443
   udp: true
   type: vless
-  uuid: f4d71fd6-1c25-4748-836b-1dbda9268039
-  flow: xtls-rprx-vision
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   tls: true
-  reality-opts:
-    public-key: PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc
-    short-id: 232b1b09e45325a4
-  servername: cz1.animeteka.info
-  client-fingerprint: firefox
+  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 172.64.153.235
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+  tls: true
+  servername: socks5.revil-time3.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: socks5.revil-time3.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
