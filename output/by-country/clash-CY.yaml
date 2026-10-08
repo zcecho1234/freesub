@@ -15,9 +15,9 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
     short-id: a8ae
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: ''
 - name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  server: 185.166.154.111
+  server: cdn.bulkavpn.top
   port: 443
   udp: true
   type: vless
